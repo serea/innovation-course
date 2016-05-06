@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:WaveView="http://schemas.android.com/apk/java/com.serea.waveview"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000" >
+    <!--com.serea.waveview-->
+    <app.build.generated.source.r.debug.app.src.main.java.com.serea.waveview.Waveview
+        android:layout_width="100dp"
+        android:background="#ffffff"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>

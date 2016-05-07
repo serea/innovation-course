@@ -3,43 +3,37 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/page4_background">
-    <ImageView
+    <!--<ImageView
         android:layout_width="80dp"
         android:layout_height="80dp"
         android:src="@drawable/page4logo"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:id="@+id/imageView2" />
+        android:id="@+id/imageView2" />-->
     <Button
         android:id="@+id/button1"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:background="@drawable/transparentbutton"
-        android:layout_marginTop="71dp"
+        android:background="@drawable/heartratebutton"
+        android:layout_marginTop="137dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:text="心率 Heartrate"
-        android:textColor="@color/text_color"/>
+        android:layout_centerHorizontal="true" />
     <Button
         android:id="@+id/button2"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:background="@drawable/transparentbutton"
+        android:background="@drawable/gpsbutton"
         android:layout_below="@+id/button1"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="32dp"
-        android:text="GPS定位 GPS Location"
-        android:textColor="@color/text_color"/>
+        android:layout_marginTop="32dp" />
     <Button
         android:id="@+id/button3"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:background="@drawable/transparentbutton"
+        android:background="@drawable/bloodprebutton"
         android:layout_marginTop="37dp"
         android:layout_below="@+id/button2"
-        android:layout_centerHorizontal="true"
-        android:text="血压 Blood pressure"
-        android:textColor="@color/text_color"/>
+        android:layout_centerHorizontal="true" />
 
     <Button
         android:layout_width="60dp"

@@ -2,29 +2,22 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/page1_background">
+    android:background="@drawable/page1_background"
+    android:theme="@style/myAppTheme">
 
-    <TextView
-        android:id="@+id/textgive"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Give you better care"
-        android:textColor="@color/text_color"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_horizontal_margin"
-        android:textSize="30dp"/>
 
     <Button
         android:id="@+id/textconnect"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="连接设备"
-        android:drawableLeft="@mipmap/connectbuttton"
+        android:drawableLeft="@drawable/connectbutton"
         android:textColor="@color/text_color"
         android:background="#00000000"
+        android:textSize="20dp"
+        android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="@dimen/activity_horizontal_margin2"
-        android:textSize="20dp"/>
+        android:layout_marginBottom="91dp" />
 
     <TextView
         android:id="@+id/textbracelet"
@@ -34,7 +27,8 @@
         android:textColor="@color/text_color"
         android:textSize="20dp"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/textgive" />
+        android:layout_toLeftOf="@+id/button"
+        android:layout_marginRight="42dp" />
 
 
     <Button
@@ -44,9 +38,8 @@
         android:id="@+id/button"
         android:layout_marginStart="37dp"
         android:background="@drawable/connect"
-        android:layout_above="@+id/imageView3"
-        android:layout_alignRight="@+id/textgive"
-        android:layout_marginRight="31dp" />
+        android:layout_alignBottom="@+id/textbracelet"
+        android:layout_alignRight="@+id/imageView3" />
 
     <TextView
         android:id="@+id/textpillow"

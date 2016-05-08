@@ -11,5 +11,6 @@
     <color name="colorblue">#4D7AB5</color>
     <color name="welcomecolorPrimary">#34CAE7</color>
     <color name="welcomecolorPrimaryDark">#0BA0BD</color>
+    <color name="transparent">#0000</color>
 
 </resources>

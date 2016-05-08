@@ -3,13 +3,12 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/page4_background">
-    <!--<ImageView
-        android:layout_width="80dp"
-        android:layout_height="80dp"
-        android:src="@drawable/page4logo"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:id="@+id/imageView2" />-->
+
+    <include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
     <Button
         android:id="@+id/button1"
         android:layout_width="300dp"
@@ -35,24 +34,25 @@
         android:layout_below="@+id/button2"
         android:layout_centerHorizontal="true" />
 
-    <Button
+    <!--<Button
+        android:id="@+id/button4"
         android:layout_width="60dp"
         android:layout_height="20dp"
         android:background="@drawable/page4logo2"
-        android:id="@+id/button4"
         android:layout_marginBottom="19dp"
         android:layout_alignParentBottom="true"
         android:layout_alignLeft="@+id/button3"
-        android:layout_alignStart="@+id/button3" />
+        android:layout_alignStart="@+id/button3" />-->
 
     <Button
+        android:id="@+id/button5"
         android:layout_width="60dp"
         android:layout_height="20dp"
         android:background="@drawable/page4logo3"
-        android:id="@+id/button5"
-        android:layout_alignTop="@+id/button4"
+        android:layout_alignParentBottom="true"
         android:layout_alignRight="@+id/button3"
-        android:layout_alignEnd="@+id/button3" />
+        android:layout_marginBottom="31dp" />
+
 
 
 </RelativeLayout>

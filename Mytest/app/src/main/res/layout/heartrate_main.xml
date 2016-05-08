@@ -8,6 +8,7 @@
     android:weightSum="3">
 
     <Button
+        android:id="@+id/bottonback"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/left"/>

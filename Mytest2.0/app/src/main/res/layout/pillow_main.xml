@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pillow_mainbackground">
+
+    <!--<include
+        layout="@layout/app_bar_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />-->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/nightcarebutton"
+        android:layout_marginTop="118dp" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_marginRight="30dp"
+        android:background="@drawable/sleepqualitybutton"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="26dp"
+        android:layout_alignLeft="@+id/button1" />
+
+</RelativeLayout>

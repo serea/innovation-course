@@ -19,7 +19,7 @@ public class BloodpressureActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.bloodpressure_main);
 
-        /*button1=(Button)findViewById(R.id.buttonback);
+        button1=(Button)findViewById(R.id.buttonback);
 
         button1.setOnClickListener(new OnClickListener() {
             @Override
@@ -27,7 +27,7 @@ public class BloodpressureActivity extends Activity{
                 Intent intent = new Intent(BloodpressureActivity.this,MainActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 }
 

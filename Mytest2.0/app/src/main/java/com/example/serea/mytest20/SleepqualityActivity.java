@@ -16,7 +16,7 @@ public class SleepqualityActivity extends Activity{
         super.onCreate(savedInstanceState);
         setContentView(R.layout.sleepquality_main);
 
-        /*button1=(Button)findViewById(R.id.buttonback);
+        button1=(Button)findViewById(R.id.buttonback);
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -24,7 +24,7 @@ public class SleepqualityActivity extends Activity{
                 Intent intent = new Intent(SleepqualityActivity.this,MainActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
     }
 }
 

@@ -11,16 +11,18 @@
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
     tools:context="com.example.serea.mytest20.MainActivity"
     tools:showIn="@layout/app_bar_main"
-    android:background="@drawable/page4_background">
+    android:background="@drawable/page4_background"
+    >
 
     <Button
         android:id="@+id/button1"
         android:layout_width="300dp"
         android:layout_height="80dp"
         android:background="@drawable/heartratebutton"
-        android:layout_marginTop="137dp"
+        android:layout_marginTop="111dp"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignLeft="@+id/button2"
+        android:layout_alignStart="@+id/button2" />
     <Button
         android:id="@+id/button2"
         android:layout_width="300dp"
@@ -42,8 +44,9 @@
         android:layout_width="60dp"
         android:layout_height="20dp"
         android:background="@drawable/page4logo3"
+        android:layout_marginBottom="54dp"
         android:layout_alignParentBottom="true"
-        android:layout_alignRight="@+id/button3"
-        android:layout_marginBottom="31dp" />
+        android:layout_alignLeft="@+id/button3"
+        android:layout_alignStart="@+id/button3" />
 
 </RelativeLayout>

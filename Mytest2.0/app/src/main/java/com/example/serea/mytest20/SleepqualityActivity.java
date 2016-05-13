@@ -21,7 +21,7 @@ public class SleepqualityActivity extends Activity{
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(SleepqualityActivity.this,MainActivity.class);
+                Intent intent = new Intent(SleepqualityActivity.this,PillowactivityActivity.class);
                 startActivity(intent);
             }
         });

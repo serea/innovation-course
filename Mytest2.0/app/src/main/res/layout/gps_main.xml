@@ -3,5 +3,10 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/page6_background">
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/left"/>
 
 </LinearLayout>

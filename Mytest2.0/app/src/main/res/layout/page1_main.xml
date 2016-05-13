@@ -6,18 +6,14 @@
     <!--android:theme="@style/myAppTheme">-->
 
 
-    <!--<Button
+    <Button
         android:id="@+id/textconnect"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="连接设备"
-        android:drawableLeft="@drawable/connectbutton"
-        android:textColor="@color/text_color"
-        android:background="#00000000"
-        android:textSize="20dp"
+        android:layout_width="100dp"
+        android:layout_height="30dp"
+        android:background="@drawable/connectdevice"
         android:layout_above="@+id/button"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="91dp" />-->
+        android:layout_marginBottom="91dp" />
 
     <TextView
         android:id="@+id/textbracelet"
@@ -34,7 +30,6 @@
     <Button
         android:layout_width="100dp"
         android:layout_height="30dp"
-        android:text="connect"
         android:id="@+id/button"
         android:layout_marginLeft="37dp"
         android:background="@drawable/connect"
@@ -55,7 +50,6 @@
         android:id="@+id/button2"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        android:text="connect"
         android:layout_alignTop="@+id/textpillow"
         android:layout_alignLeft="@+id/button"
         android:layout_alignStart="@+id/button"
@@ -65,9 +59,8 @@
         android:id="@+id/button3"
         android:layout_width="100dp"
         android:layout_height="30dp"
-        android:text="打开蓝牙"
         android:layout_marginBottom="78dp"
-        android:background="@drawable/connect"
+        android:background="@drawable/blueteeth"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />

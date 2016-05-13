@@ -3,6 +3,12 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/pillow2background">
+
+    <Button
+        android:id="@+id/buttonback"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/left"/>
     <ImageButton
         android:layout_width="wrap_content"
         android:layout_height="300dp"
